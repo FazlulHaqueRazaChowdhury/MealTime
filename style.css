@@ -1,0 +1,21 @@
+.card {
+    margin: 10px 10px !important;
+    padding: 10px 10px !important;
+}
+
+.card-text {
+    overflow: hidden;
+}
+
+.card-disabled {
+    display: none;
+}
+
+#spinner {
+    display: none;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(128, 128, 128, 0.823);
+    z-index: 4;
+}
